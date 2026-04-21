@@ -45,8 +45,3 @@ For a Python developer, moving from local processing to cloud-native EO processi
 ### 8.6 Systems Engineering for AI and Machine Learning Integration
 
 An emerging area at EUMETSAT is the systematic integration of machine learning methods into operational data processing. From a SE perspective, this introduces new challenges: ML models must be specified (what they must do, not how), verified (demonstrating performance against test datasets), validated (demonstrating performance in operational conditions), and managed over time (handling model drift, retraining cycles). The discipline of MLOps overlaps significantly with traditional SE configuration management and V&V processes.
-
-### 8.7 Language Skills
-
-EUMETSAT's official languages are English and French. All technical work is conducted in English, but some knowledge of French is listed as a requirement in essentially all EUMETSAT job postings. Even basic professional French — sufficient for written communications and meetings — is a genuine career advantage in the EUMETSAT context.
-

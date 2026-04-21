@@ -1,4 +1,4 @@
-## 5. Phase 4 — Verification and Validation (Months 6–9)
+## 5. Phase 4 — Verification and Validation
 
 ### 5.1 Overview
 
@@ -53,3 +53,15 @@ Your Python skills are directly applicable to V&V automation:
 - Statistical analysis of test results across multiple test runs (pass rates, regression analysis)
 - Automated generation of verification status reports from DOORS exports
 - Performance benchmarking and regression testing of data processing pipelines
+
+## Sample example
+**Project Scenario:**
+
+Build a system that:
+
+- Receives raw satellite telemetry from space
+- Processes Level-0 → Level-1 → Level-2 products
+- Distributes products to users within strict latency limits
+- Meets availability, quality, and security requirements
+
+![alt text](images/img04.png)
