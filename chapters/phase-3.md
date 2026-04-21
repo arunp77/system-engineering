@@ -8,19 +8,13 @@ Model-Based Systems Engineering (MBSE) is the modern approach to SE in which for
 
 SysML is the primary modelling language for MBSE. It is a subset and extension of UML (Unified Modeling Language), adapted for systems engineering. SysML provides nine diagram types, of which the following are most important for ground segment systems engineering:
 
-**Block Definition Diagram (BDD)**: Defines the hierarchy and structure of the system, showing how blocks (representing hardware, software, or functions) relate to each other, their properties, and their interfaces. Analogous to a component decomposition tree.
-
-**Internal Block Diagram (IBD)**: Shows the internal structure of a single block — its ports, interfaces, and the connections between them. Used to model data flows and physical interfaces between subsystems.
-
-**Requirements Diagram**: Represents requirements as model elements and shows their derivation, refinement, and verification relationships. Enables graphical traceability.
-
-**Use Case Diagram**: Captures high-level system functions from the perspective of external actors (users, operators, other systems). Used in early mission analysis and operational concept definition.
-
-**Activity Diagram**: Models dynamic behaviour — workflows, data flows, control flows. Useful for modelling operations procedures and data processing pipelines.
-
-**Sequence Diagram**: Models time-ordered interactions between system elements. Used for modelling command-response sequences in satellite operations.
-
-**State Machine Diagram**: Models the modes and states of a system or subsystem and the transitions between them. Essential for modelling satellite and ground system operational modes.
+- **Block Definition Diagram (BDD)**: Defines the hierarchy and structure of the system, showing how blocks (representing hardware, software, or functions) relate to each other, their properties, and their interfaces. Analogous to a component decomposition tree.
+- **Internal Block Diagram (IBD)**: Shows the internal structure of a single block — its ports, interfaces, and the connections between them. Used to model data flows and physical interfaces between subsystems.
+- **Requirements Diagram**: Represents requirements as model elements and shows their derivation, refinement, and verification relationships. Enables graphical traceability.
+- **Use Case Diagram**: Captures high-level system functions from the perspective of external actors (users, operators, other systems). Used in early mission analysis and operational concept definition.
+- **Activity Diagram**: Models dynamic behaviour — workflows, data flows, control flows. Useful for modelling operations procedures and data processing pipelines.
+- **Sequence Diagram**: Models time-ordered interactions between system elements. Used for modelling command-response sequences in satellite operations.
+- **State Machine Diagram**: Models the modes and states of a system or subsystem and the transitions between them. Essential for modelling satellite and ground system operational modes.
 
 ### 4.3 MBSE Tools
 

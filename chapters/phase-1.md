@@ -99,3 +99,8 @@ Practical steps:
 - INCOSE SE Handbook (purchasable via incose.org)
 - IBM DOORS tutorials on [YouTube](https://www.youtube.com/watch?v=bIk33ca0oWQ) and [IBM documentation portal](https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.2?topic=tutorials)
 - Kossiakoff & Sweet, "Systems Engineering: Principles and Practice" (textbook)
+
+### 2.6 Important links
+
+- [Software development: Introduction to IV&V](https://arunp77.github.io/iv-and-v.html)
+- [CI/CD: Streamlining Software Development](https://arunp77.github.io/ci-cd-Jenkins.html#waterfall)
