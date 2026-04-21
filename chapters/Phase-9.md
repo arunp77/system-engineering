@@ -1,8 +1,5 @@
 # Software Development Methodologies in System Engineering
 
-![alt text](images/img05.png)
-
-
 ## Overview
 
 In system engineering, selecting the right development methodology is important for successful project delivery, operational efficiency, and long-term maintainability. Different methodologies offer different strengths depending on project complexity, stakeholder involvement, timelines, and change requirements.
@@ -12,6 +9,8 @@ This document provides an overview of three widely used methodologies:
 - Waterfall
 - Agile
 - DevOps
+
+![alt text](images/img05.png)
 
 ---
 
