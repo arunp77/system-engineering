@@ -1,4 +1,4 @@
-## 8. Phase 7 — Cross-Cutting Skills (Ongoing)
+## 8. Phase 7 — Operations Engineering and System Monitoring 
 
 ### 8.1 Interface Management
 
