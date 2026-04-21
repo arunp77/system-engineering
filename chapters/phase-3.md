@@ -1,4 +1,4 @@
-## 4. Phase 3 — Model-Based Systems Engineering (Months 4–7)
+## 4. Phase 3 — Model-Based Systems Engineering
 
 ### 4.1 Overview
 

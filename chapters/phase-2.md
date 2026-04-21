@@ -1,4 +1,4 @@
-## 3. Phase 2 — Space and Ground Segment Architecture (Months 3–6)
+## 3. Phase 2 — Space and Ground Segment Architecture
 
 ### 3.1 Overview
 
@@ -28,23 +28,23 @@ EUMETSAT's satellite fleet currently consists of:
 
 The EUMETSAT ground segment is the set of ground-based infrastructure required to operate the satellites and process and deliver their data. Its major components are:
 
-*Mission Control Centre (MCC)*: Located at EUMETSAT headquarters in Darmstadt, the MCC is responsible for the safe operation of all satellites. It comprises two main control rooms — one for geostationary missions and one for low-Earth-orbit missions. From the MCC, teams communicate with satellites and acquire data through a network of ground stations. Operations run continuously, 24 hours a day, 365 days a year.
+- **Mission Control Centre (MCC)**: Located at EUMETSAT headquarters in Darmstadt, the MCC is responsible for the safe operation of all satellites. It comprises two main control rooms — one for geostationary missions and one for low-Earth-orbit missions. From the MCC, teams communicate with satellites and acquire data through a network of ground stations. Operations run continuously, 24 hours a day, 365 days a year.
 
-*Telemetry, Tracking and Control (TT&C) Ground Stations*: These stations provide the uplink and downlink communication interface between the satellites and the MCC. They send telecommands to the satellite and receive housekeeping telemetry, and perform ranging for orbit determination. Primary and backup stations are distributed across Europe.
+- **Telemetry, Tracking and Control (TT&C) Ground Stations**: These stations provide the uplink and downlink communication interface between the satellites and the MCC. They send telecommands to the satellite and receive housekeeping telemetry, and perform ranging for orbit determination. Primary and backup stations are distributed across Europe.
 
-*Mission Data Acquisition (MDA) Stations / Ground Station Facilities (GSTF)*: Separate from TT&C, these stations receive the high-rate payload data (instrument science data) from the satellites. For MTG, data is received in the Ka band from both MTG-I and MTG-S at sites including Lario (Italy) and Leuk (Switzerland).
+- **Mission Data Acquisition (MDA) Stations / Ground Station Facilities (GSTF)**: Separate from TT&C, these stations receive the high-rate payload data (instrument science data) from the satellites. For MTG, data is received in the Ka band from both MTG-I and MTG-S at sites including Lario (Italy) and Leuk (Switzerland).
 
-*Mission Operations Facility (MOF)*: The MOF provides all functions needed to plan and operate the missions. It includes the Mission Control Subsystem (MCS) for satellite monitoring and control, the Mission Planning Subsystem (MPS) for scheduling, and the Flight Dynamics Subsystem (FDS) for orbit determination and manoeuvre planning.
+- **Mission Operations Facility (MOF)**: The MOF provides all functions needed to plan and operate the missions. It includes the Mission Control Subsystem (MCS) for satellite monitoring and control, the Mission Planning Subsystem (MPS) for scheduling, and the Flight Dynamics Subsystem (FDS) for orbit determination and manoeuvre planning.
 
-*Instrument Data Processing Facilities (IDPF)*: These facilities process the raw instrument data into calibrated, geolocated Level 1b products. For MTG, there are separate IDPFs for the imager and sounder instruments.
+- **Instrument Data Processing Facilities (IDPF)**: These facilities process the raw instrument data into calibrated, geolocated Level 1b products. For MTG, there are separate IDPFs for the imager and sounder instruments.
 
-*Level 2 Processing Facility (L2PF)*: Transforms Level 1b data into geophysical products (Level 2) such as cloud properties, atmospheric motion vectors, and sea surface temperature.
+- **Level 2 Processing Facility (L2PF)**: Transforms Level 1b data into geophysical products (Level 2) such as cloud properties, atmospheric motion vectors, and sea surface temperature.
 
-*Multi-Mission Elements (MME)*: EUMETSAT has developed a set of common operational facilities shared across all programmes, covering data centre services, EUMETCast dissemination, system monitoring, and IT infrastructure. This multi-mission approach reduces duplication and cost.
+- **Multi-Mission Elements (MME)**: EUMETSAT has developed a set of common operational facilities shared across all programmes, covering data centre services, EUMETCast dissemination, system monitoring, and IT infrastructure. This multi-mission approach reduces duplication and cost.
 
-*EUMETCast*: EUMETSAT's primary near-real-time data dissemination mechanism, based on Digital Video Broadcast-S2 (DVB-S2) technology. It uses commercial geostationary satellites to multicast data and products to users worldwide who have appropriate receiving equipment.
+- **EUMETCast**: EUMETSAT's primary near-real-time data dissemination mechanism, based on Digital Video Broadcast-S2 (DVB-S2) technology. It uses commercial geostationary satellites to multicast data and products to users worldwide who have appropriate receiving equipment.
 
-*Satellite Application Facilities (SAFs)*: A network of eight thematic processing centres distributed across EUMETSAT member states, each specialising in a particular application domain: Nowcasting (NWC SAF), Numerical Weather Prediction (NWP SAF), Ocean and Sea Ice (OSI SAF), Land Surface Analysis (LSA SAF), Atmospheric Composition Monitoring (AC SAF), Climate Monitoring (CM SAF), Radio Occultation Monitoring (ROM SAF), and the HSAF for Hydrological and Snow products.
+- **Satellite Application Facilities (SAFs)**: A network of eight thematic processing centres distributed across EUMETSAT member states, each specialising in a particular application domain: Nowcasting (NWC SAF), Numerical Weather Prediction (NWP SAF), Ocean and Sea Ice (OSI SAF), Land Surface Analysis (LSA SAF), Atmospheric Composition Monitoring (AC SAF), Climate Monitoring (CM SAF), Radio Occultation Monitoring (ROM SAF), and the HSAF for Hydrological and Snow products.
 
 ### 3.3 Interfaces and Interface Control
 

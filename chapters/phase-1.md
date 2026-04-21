@@ -42,6 +42,8 @@ System    →    Segment    →    Subsystem    →    Equipment    →    Compo
 
 At EUMETSAT, the top-level decomposition is typically Space Segment and Ground Segment, with further decomposition into mission control, data acquisition, data processing, dissemination, and supporting infrastructure. Understanding how requirements flow down this hierarchy (requirement allocation) and how verification evidence flows back up (traceability) is a core SE skill.
 
+![images](images/img3.png)
+
 ### 2.3 Key Standards to Study
 
 **ECSS Standards**
@@ -50,15 +52,15 @@ EUMETSAT follows ECSS standards, developed under the auspices of ESA, EUMETSAT, 
 
 - **ECSS-E-ST-10**: Space Engineering — System Engineering General Requirements. This is the primary reference for SE processes at EUMETSAT.
 - **ECSS-E-ST-10-06**: Technical Requirements Specification. Covers how to write and manage requirements.
-- **ECSS-E-ST-10-02**: Verification. Covers the V&V process.
+- **[ECSS-E-ST-10-02](https://ecss.nl/wp-content/uploads/standards/ecss-e/ECSS-E-10-02A17Nov1998.pdf)**: Verification. Covers the V&V process.
 - **ECSS-M-ST-10**: Project Planning and Implementation. Covers lifecycle management.
 - **ECSS-Q-ST-80**: Software Product Assurance.
 
-All ECSS standards are freely downloadable from ecss.nl. Reading the above documents is not optional — they are the actual standards against which EUMETSAT programmes are audited.
+All ECSS standards are freely downloadable from [ecss.nl](https://ecss.nl/). Reading the above documents is not optional — they are the actual standards against which EUMETSAT programmes are audited.
 
 **NASA Systems Engineering Handbook (SP-2016-6105)**
 
-The NASA SE Handbook is an excellent, freely available complement to ECSS. It is more readable and contains worked examples, detailed guidance on requirements writing, interface management, and technical reviews. It is strongly recommended as a companion to ECSS reading.
+The [NASA SE Handbook](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf) is an excellent, freely available complement to ECSS. It is more readable and contains worked examples, detailed guidance on requirements writing, interface management, and technical reviews. It is strongly recommended as a companion to ECSS reading.
 
 **INCOSE Systems Engineering Handbook**
 
@@ -92,8 +94,8 @@ Practical steps:
 
 ### 2.5 Study Resources for Phase 1
 
-- ECSS Standards (ecss.nl — free download)
-- NASA SE Handbook (nasa.gov — free PDF)
+- ECSS Standards ([ecss.nl](https://ecss.nl/) free download)
+- [NASA SE Handbook](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)
 - INCOSE SE Handbook (purchasable via incose.org)
-- IBM DOORS tutorials on YouTube and IBM documentation portal
+- IBM DOORS tutorials on [YouTube](https://www.youtube.com/watch?v=bIk33ca0oWQ) and [IBM documentation portal](https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.2?topic=tutorials)
 - Kossiakoff & Sweet, "Systems Engineering: Principles and Practice" (textbook)
