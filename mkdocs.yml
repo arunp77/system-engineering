@@ -1,27 +1,82 @@
-# mkdocs.yml
 site_name: System Engineering
 site_description: Documentation for System Engineering concepts
+site_url: https://arunp77.github.io/
 
 theme:
   name: material
 
+  # Logo (optional – remove if you don’t have it yet)
+  # Put file in: docs/assets/logo.png
+  logo: assets/logo.png
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
 docs_dir: docs
 
 nav:
-  - Home: README.md
-  - Chapters:
-      - Phase 0: Chapters/phase-0.md
-      - Phase 1: Chapters/phase-1.md
-      - Phase 2: Chapters/phase-2.md
-      - Phase 3: Chapters/phase-3.md
-      - Phase 4: Chapters/phase-4.md
-      - Phase 5: Chapters/phase-5.md
-      - Phase 6: Chapters/phase-6.md
-      - Phase 7: Chapters/phase-7.md
-      - Phase 8: Chapters/phase-8.md
-      - Phase 9: Chapters/phase-9.md
+  - Home: index.md
+
+  - Phases:
+      - Phase 0: chapters/phase-0.md
+      - Phase 1: chapters/phase-1.md
+      - Phase 2: chapters/phase-2.md
+      - Phase 3: chapters/phase-3.md
+      - Phase 4: chapters/phase-4.md
+      - Phase 5: chapters/phase-5.md
+      - Phase 6: chapters/phase-6.md
+      - Phase 7: chapters/phase-7.md
+      - Phase 8: chapters/phase-8.md
+      - Phase 9: chapters/phase-9.md
+
   - Appendix:
-      - Appendex-A: Chapters/Appendix-A.md
-      - Appendex-B: Chapters/Appendix-B.md
-      - Appendex-C: Chapters/Appendix-C.md
-  - Certification: Chapters/certification.md
+      - Appendix A: chapters/Appendix-A.md
+      - Appendix B: chapters/Appendix-B.md
+      - Appendix C: chapters/Appendix-C.md
+
+  - Certification: chapters/certification.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/arunp77
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/arunp77
+
+copyright: "© 2026 Arun Kumar Pandey"
+
+extra_css:
+  - stylesheets/extra.css
