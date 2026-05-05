@@ -1,0 +1,23 @@
+# mkdocs.yml
+site_name: System Engineering
+
+theme:
+  name: material
+
+nav:
+  - Home: README.md
+  - Chapters:
+      - Phase 0: Chapters/phase-0.md
+      - Phase 1: Chapters/phase-1.md
+      - Phase 2: Chapters/phase-2.md
+      - Phase 3: Chapters/phase-3.md
+      - Phase 4: Chapters/phase-4.md
+      - Phase 5: Chapters/phase-5.md
+      - Phase 6: Chapters/phase-6.md
+      - Phase 7: Chapters/phase-7.md
+      - Phase 8: Chapters/phase-8.md
+      - Phase 9: Chapters/phase-9.md
+      - Appendex-A: Chapters/Appendix-A.md
+      - Appendex-B: Chapters/Appendix-A.md
+      - Appendex-C: Chapters/Appendix-A.md
+      - Certification: Chapters/certification.md
