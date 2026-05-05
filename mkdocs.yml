@@ -56,6 +56,8 @@ nav:
 
   - Certification: chapters/certification.md
 
+  - About: about.md
+
 markdown_extensions:
   - admonition
   - toc:
@@ -76,7 +78,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/arunp77
 
-copyright: "© 2026 Arun Kumar Pandey"
+copyright: "© 2024 Arun Kumar Pandey"
 
 extra_css:
   - stylesheets/extra.css
