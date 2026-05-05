@@ -14,7 +14,7 @@ SysML is the primary modelling language for MBSE. It is a subset and extension o
 - **Use Case Diagram**: Captures high-level system functions from the perspective of external actors (users, operators, other systems). Used in early mission analysis and operational concept definition.
 - **Activity Diagram**: Models dynamic behaviour — workflows, data flows, control flows. Useful for modelling operations procedures and data processing pipelines.
 - **Sequence Diagram**: Models time-ordered interactions between system elements. Used for modelling command-response sequences in satellite operations.
-- **State Machine Diagram**: Models the modes and states of a system or subsystem and the transitions between them. Essential for modelling satellite and ground system operational modes.
+- **State Machine Diagram**: Models the modes and states of a system or subsystem and the transitions between them. Essential for modelling satellite and ground system operational modes. 
 
 ### 4.3 MBSE Tools
 

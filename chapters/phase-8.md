@@ -16,7 +16,7 @@ Your remote sensing, Python, and SQL experience are genuine assets in the SE con
 - Database and SQL skills apply to requirements databases, test result tracking systems, and product quality databases.
 - Remote sensing knowledge provides deep intuition for Cal/Val processes, product quality assessment, data format engineering, and the user perspective in requirements elicitation — all highly valued in SE roles. -->
 
-### 10.2 Networking and Community
+### 10.2 Networking and Community 
 
 - EUMETSAT is located in Darmstadt, approximately 30 minutes from Frankfurt. Attending EUMETSAT open days, training workshops, and user conferences provides direct visibility into their working practices and technical culture.
 - The EUMETSAT Annual Meteorological Satellite Conference is an excellent forum for technical networking.

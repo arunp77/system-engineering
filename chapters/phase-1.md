@@ -22,7 +22,7 @@ Understanding the V-model is essential for EUMETSAT work because all ground segm
 
 The system lifecycle encompasses all phases from initial concept to decommissioning. For EUMETSAT satellite programmes, this typically includes:
 
-- Phase 0: Mission Analysis and Needs Identification
+- Phase 0: Mission Analysis and Needs Identification 
 - Phase A: Feasibility
 - Phase B: Preliminary Design
 - Phase C: Detailed Design

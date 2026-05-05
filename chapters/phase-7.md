@@ -13,7 +13,7 @@ At EUMETSAT, major interface management challenges arise from multi-partner prog
 
 ### 8.2 Configuration Management
 
-Configuration management (CM) is the discipline of controlling and tracking changes to system documentation, software, and hardware throughout the lifecycle. In SE contexts, CM covers:
+Configuration management (CM) is the discipline of controlling and tracking changes to system documentation, software, and hardware throughout the lifecycle. In SE contexts, CM covers: 
 
 - Identifying and baselining configuration items (documents, software versions, hardware items)
 - Change control: all changes to baselined items must go through a formal Change Control Board (CCB) process

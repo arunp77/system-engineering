@@ -16,7 +16,7 @@ EUMETSAT's satellite fleet currently consists of:
 
 - **Meteosat Third Generation (MTG)**: The next generation of geostationary satellites. MTG-I (Imager) carries the Flexible Combined Imager (FCI) and Lightning Imager (LI). MTG-S (Sounder) carries the Infrared Sounder (IRS) and hosts the ESA Sentinel-4 UVN instrument for atmospheric composition monitoring. MTG represents the current state of the art and is the focus of most current ground segment SE activity at EUMETSAT.
 
-- **Metop (EPS)**: Three polar-orbiting satellites in sun-synchronous orbit at 817 km altitude. Carry a suite of instruments including IASI (Infrared Atmospheric Sounding Interferometer), AVHRR, AMSU, and MHS. Metop-B and Metop-C are currently operational.
+- **Metop (EPS)**: Three polar-orbiting satellites in sun-synchronous orbit at 817 km altitude. Carry a suite of instruments including IASI (Infrared Atmospheric Sounding Interferometer), AVHRR, AMSU, and MHS. Metop-B and Metop-C are currently operational. 
 
 - **Metop Second Generation (EPS-SG)**: Under development, will replace Metop with improved instruments including IASI-NG, MWS, and RO instruments.
 

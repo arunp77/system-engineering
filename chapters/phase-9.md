@@ -16,7 +16,7 @@ This document provides an overview of three widely used methodologies:
 
 # 1. Waterfall Methodology
 
-## Definition
+## Definition 
 
 The Waterfall model is a traditional and linear software development approach. It follows a sequential process where each phase must be completed before moving to the next stage.
 

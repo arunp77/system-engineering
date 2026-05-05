@@ -14,7 +14,7 @@ EUMETSAT's data products are organised in processing levels that mirror internat
 
 - **Level 1c**: For imaging instruments, Level 1c adds further processing for geometric correction, image navigation and registration (INR), and sometimes remapping to standard projections. The accuracy of Level 1c geolocation is critical for meteorological applications.
 
-- **Level 2**: Geophysical parameters derived from Level 1b data by applying physical retrieval algorithms. Examples include: sea surface temperature (SST), atmospheric temperature and humidity profiles, total column ozone, cloud properties (cloud top height, optical thickness, phase), atmospheric motion vectors (AMVs), and precipitation estimates.
+- **Level 2**: Geophysical parameters derived from Level 1b data by applying physical retrieval algorithms. Examples include: sea surface temperature (SST), atmospheric temperature and humidity profiles, total column ozone, cloud properties (cloud top height, optical thickness, phase), atmospheric motion vectors (AMVs), and precipitation estimates. 
 
 - **Level 3**: Gridded, composited, or averaged products derived from Level 2 data. These are typically created over regular time periods (daily, monthly) and on regular spatial grids. Important for climate monitoring applications.
 

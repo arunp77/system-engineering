@@ -11,7 +11,7 @@ The distinction is subtle but important:
 - **Verification** answers: "Are we building the system right?" It checks compliance against the specification. Methods include testing, analysis, inspection, and demonstration. Each requirement must have a defined verification method.
 - **Validation** answers: "Are we building the right system?" It checks that the system, when operated in its intended environment, satisfies the stakeholder's actual needs — even needs that may not have been perfectly captured in the requirements specification.
 
-At EUMETSAT, an example of the distinction: verification of the Level 1b processor confirms that it applies the specified radiometric calibration algorithm correctly (verification against the ICD). Validation confirms that the resulting radiance products are of sufficient accuracy for numerical weather prediction users (validation against user needs).
+At EUMETSAT, an example of the distinction: verification of the Level 1b processor confirms that it applies the specified radiometric calibration algorithm correctly (verification against the ICD). Validation confirms that the resulting radiance products are of sufficient accuracy for numerical weather prediction users (validation against user needs). 
 
 ### 5.3 Verification Methods
 
