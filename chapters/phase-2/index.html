@@ -1,0 +1,1105 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for System Engineering concepts">
+      
+      
+      
+      
+        <link rel="prev" href="../phase-1/">
+      
+      
+        <link rel="next" href="../phase-3/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Phase 2 - System Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2-phase-2-foundations-of-systems-engineering" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="System Engineering" class="md-header__button md-logo" aria-label="System Engineering" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            System Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Phase 2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="System Engineering" class="md-nav__button md-logo" aria-label="System Engineering" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    System Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2-phase-2-foundations-of-systems-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Phase 2 — Foundations of Systems Engineering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Phase 2 — Foundations of Systems Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-core-systems-engineering-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Core Systems Engineering Concepts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-key-standards-to-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Key Standards to Study
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-requirements-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Requirements Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-study-resources-for-phase-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Study Resources for Phase 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-important-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 Important links
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Appendix
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Appendix-A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix A
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Appendix-B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix B
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Appendix-C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix C
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../certification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2-phase-2-foundations-of-systems-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Phase 2 — Foundations of Systems Engineering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Phase 2 — Foundations of Systems Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-core-systems-engineering-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Core Systems Engineering Concepts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-key-standards-to-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Key Standards to Study
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-requirements-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Requirements Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-study-resources-for-phase-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Study Resources for Phase 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-important-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 Important links
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Phase 2</h1>
+
+<h2 id="2-phase-2-foundations-of-systems-engineering">2. Phase 2 — Foundations of Systems Engineering</h2>
+<h3 id="21-overview">2.1 Overview</h3>
+<p>The first phase establishes the theoretical and methodological foundation for all subsequent learning. It covers the core SE process, lifecycle models, standards, and the single most critical practical skill in EUMETSAT SE roles: requirements engineering.</p>
+<h3 id="22-core-systems-engineering-concepts">2.2 Core Systems Engineering Concepts</h3>
+<p><strong>The V-Model</strong></p>
+<p>The V-model is the foundational process model for systems engineering. The left side of the V represents decomposition — from user needs through system requirements, subsystem requirements, and component specifications. The right side represents integration and verification — component testing, subsystem integration, system verification, and operational validation. The two sides are connected at each level, meaning every design decision on the left must be verified by a corresponding test on the right.</p>
+<p><img alt="alt text" src="../images/img1.png" /></p>
+<p><img alt="alt text" src="../images/img2.png" /></p>
+<p><strong>Refrence:</strong> <a href="https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf">https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf</a></p>
+<p>Understanding the V-model is essential for EUMETSAT work because all ground segment developments follow this structure. Review gates (SRR, PDR, CDR, QR, AR) occur at specific points in the V, and systems engineers are responsible for ensuring that the system is mature enough to pass each gate.</p>
+<p><strong>System Lifecycle</strong></p>
+<p>The system lifecycle encompasses all phases from initial concept to decommissioning. For EUMETSAT satellite programmes, this typically includes:</p>
+<ul>
+<li>Phase 0: Mission Analysis and Needs Identification</li>
+<li>Phase A: Feasibility</li>
+<li>Phase B: Preliminary Design</li>
+<li>Phase C: Detailed Design</li>
+<li>Phase D: Qualification and Production</li>
+<li>Phase E: Launch, Commissioning, and Operations</li>
+<li>Phase F: Disposal</li>
+</ul>
+<p>These phases follow the ECSS (European Cooperation for Space Standardization) standard ECSS-M-ST-10 on Project Planning and Implementation, which EUMETSAT adheres to as a European space agency.</p>
+<p><strong>System Decomposition and Hierarchy</strong></p>
+<p>Systems are decomposed into a hierarchy:</p>
+<pre><code>System    →    Segment    →    Subsystem    →    Equipment    →    Component.
+</code></pre>
+<p>At EUMETSAT, the top-level decomposition is typically Space Segment and Ground Segment, with further decomposition into mission control, data acquisition, data processing, dissemination, and supporting infrastructure. Understanding how requirements flow down this hierarchy (requirement allocation) and how verification evidence flows back up (traceability) is a core SE skill.</p>
+<p><img alt="images" src="../images/img3.png" /></p>
+<h3 id="23-key-standards-to-study">2.3 Key Standards to Study</h3>
+<p><strong>ECSS Standards</strong></p>
+<p>EUMETSAT follows ECSS standards, developed under the auspices of ESA, EUMETSAT, and national space agencies. The most important for systems engineering are:</p>
+<ul>
+<li><strong>ECSS-E-ST-10</strong>: Space Engineering — System Engineering General Requirements. This is the primary reference for SE processes at EUMETSAT.</li>
+<li><strong>ECSS-E-ST-10-06</strong>: Technical Requirements Specification. Covers how to write and manage requirements.</li>
+<li><strong><a href="https://ecss.nl/wp-content/uploads/standards/ecss-e/ECSS-E-10-02A17Nov1998.pdf">ECSS-E-ST-10-02</a></strong>: Verification. Covers the V&amp;V process.</li>
+<li><strong>ECSS-M-ST-10</strong>: Project Planning and Implementation. Covers lifecycle management.</li>
+<li><strong>ECSS-Q-ST-80</strong>: Software Product Assurance.</li>
+</ul>
+<p>All ECSS standards are freely downloadable from <a href="https://ecss.nl/">ecss.nl</a>. Reading the above documents is not optional — they are the actual standards against which EUMETSAT programmes are audited.</p>
+<p><strong>NASA Systems Engineering Handbook (SP-2016-6105)</strong></p>
+<p>The <a href="https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf">NASA SE Handbook</a> is an excellent, freely available complement to ECSS. It is more readable and contains worked examples, detailed guidance on requirements writing, interface management, and technical reviews. It is strongly recommended as a companion to ECSS reading.</p>
+<p><strong>INCOSE Systems Engineering Handbook</strong></p>
+<p>The INCOSE handbook (latest edition) provides the international consensus view of SE best practices. It covers the full SE process, introduces key concepts like functional analysis, trade studies, and interface management, and maps to the ISO/IEC 15288 standard (System Lifecycle Processes), which ECSS is aligned with.</p>
+<h3 id="24-requirements-engineering">2.4 Requirements Engineering</h3>
+<p>Requirements engineering is the single skill most consistently demanded across all EUMETSAT systems engineering job postings. It encompasses eliciting, documenting, managing, and verifying requirements throughout the system lifecycle.</p>
+<p><strong>Writing Good Requirements</strong></p>
+<p>A well-written requirement must be: verifiable, unambiguous, complete, consistent, traceable, and feasible. Requirements are written as "shall" statements. Poor requirements are one of the most common causes of project failures in the space industry.</p>
+<p>Examples of poor vs. good requirements:</p>
+<ul>
+<li>Poor: "The system should be fast."</li>
+<li>Good: "The ground processing system shall generate Level 1b products within 30 minutes of data acquisition under nominal operating conditions."</li>
+</ul>
+<p><strong>Requirements Management and Traceability</strong></p>
+<p>Every requirement must be traceable — both to its parent requirement (upward traceability, showing it derives from a higher-level need) and to its verification evidence (downward traceability, showing it has been tested). A requirements traceability matrix (RTM) documents these relationships.</p>
+<p><strong>IBM DOORS and DOORS Next</strong></p>
+<p>IBM DOORS (Dynamic Object-Oriented Requirements System) is the industry-standard tool for requirements management in the space industry and is explicitly referenced in EUMETSAT job descriptions. Learning DOORS is non-negotiable for a serious SE career at EUMETSAT.</p>
+<p>Practical steps:</p>
+<ul>
+<li>Download the IBM DOORS trial or use DOORS Next Generation (DNG), the modern web-based version</li>
+<li>Practice creating modules, writing requirements, creating attributes, establishing links between requirements, and generating traceability reports</li>
+<li>Study the concept of baselines — freezing a set of requirements at a programme milestone</li>
+</ul>
+<h3 id="25-study-resources-for-phase-1">2.5 Study Resources for Phase 1</h3>
+<ul>
+<li>ECSS Standards (<a href="https://ecss.nl/">ecss.nl</a> free download)</li>
+<li><a href="https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf">NASA SE Handbook</a></li>
+<li>INCOSE SE Handbook (purchasable via incose.org)</li>
+<li>IBM DOORS tutorials on <a href="https://www.youtube.com/watch?v=bIk33ca0oWQ">YouTube</a> and <a href="https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.2?topic=tutorials">IBM documentation portal</a></li>
+<li>Kossiakoff &amp; Sweet, "Systems Engineering: Principles and Practice" (textbook)</li>
+</ul>
+<h3 id="26-important-links">2.6 Important links</h3>
+<ul>
+<li><a href="https://arunp77.github.io/iv-and-v.html">Software development: Introduction to IV&amp;V</a></li>
+<li><a href="https://arunp77.github.io/ci-cd-Jenkins.html#waterfall">CI/CD: Streamlining Software Development</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

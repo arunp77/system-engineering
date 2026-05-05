@@ -1,0 +1,1061 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for System Engineering concepts">
+      
+      
+      
+      
+        <link rel="prev" href="../phase-2/">
+      
+      
+        <link rel="next" href="../phase-4/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Phase 3 - System Engineering</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#3-phase-3-space-and-ground-segment-architecture" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="System Engineering" class="md-header__button md-logo" aria-label="System Engineering" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            System Engineering
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Phase 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="System Engineering" class="md-nav__button md-logo" aria-label="System Engineering" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    System Engineering
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3-phase-3-space-and-ground-segment-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Phase 3 — Space and Ground Segment Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Phase 3 — Space and Ground Segment Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-the-eumetsat-end-to-end-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 The EUMETSAT End-to-End System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-interfaces-and-interface-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Interfaces and Interface Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-orbit-and-spacecraft-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Orbit and Spacecraft Fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase-9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phase 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Appendix
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Appendix-A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix A
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Appendix-B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix B
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Appendix-C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix C
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../certification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3-phase-3-space-and-ground-segment-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Phase 3 — Space and Ground Segment Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Phase 3 — Space and Ground Segment Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-the-eumetsat-end-to-end-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 The EUMETSAT End-to-End System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-interfaces-and-interface-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Interfaces and Interface Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-orbit-and-spacecraft-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Orbit and Spacecraft Fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Phase 3</h1>
+
+<h2 id="3-phase-3-space-and-ground-segment-architecture">3. Phase 3 — Space and Ground Segment Architecture</h2>
+<h3 id="31-overview">3.1 Overview</h3>
+<p>Phase 2 builds domain-specific knowledge of satellite systems architecture, with a focus on EUMETSAT's operational systems. Understanding what EUMETSAT operates — in full architectural detail — is essential for any SE role within the organisation.</p>
+<h3 id="32-the-eumetsat-end-to-end-system">3.2 The EUMETSAT End-to-End System</h3>
+<p>The EUMETSAT system can be understood as three interconnected domains: the space segment, the ground segment, and the user segment. Systems engineers must understand all three and the interfaces between them.</p>
+<p><strong>The Space Segment</strong></p>
+<p>EUMETSAT's satellite fleet currently consists of:</p>
+<ul>
+<li>
+<p><strong>Meteosat Second Generation (MSG)</strong>: Four geostationary satellites at approximately 0° longitude providing full-disc imagery every 15 minutes. Primary instruments: SEVIRI (Spinning Enhanced Visible and Infrared Imager) and GERB (Geostationary Earth Radiation Budget). These are mature, well-documented systems and excellent for study.</p>
+</li>
+<li>
+<p><strong>Meteosat Third Generation (MTG)</strong>: The next generation of geostationary satellites. MTG-I (Imager) carries the Flexible Combined Imager (FCI) and Lightning Imager (LI). MTG-S (Sounder) carries the Infrared Sounder (IRS) and hosts the ESA Sentinel-4 UVN instrument for atmospheric composition monitoring. MTG represents the current state of the art and is the focus of most current ground segment SE activity at EUMETSAT.</p>
+</li>
+<li>
+<p><strong>Metop (EPS)</strong>: Three polar-orbiting satellites in sun-synchronous orbit at 817 km altitude. Carry a suite of instruments including IASI (Infrared Atmospheric Sounding Interferometer), AVHRR, AMSU, and MHS. Metop-B and Metop-C are currently operational.</p>
+</li>
+<li>
+<p><strong>Metop Second Generation (EPS-SG)</strong>: Under development, will replace Metop with improved instruments including IASI-NG, MWS, and RO instruments.</p>
+</li>
+<li>
+<p><strong>Sentinel-3 and Sentinel-6</strong>: Copernicus missions operated by EUMETSAT on behalf of the EU, providing ocean colour, sea surface temperature, and altimetry data.</p>
+</li>
+<li>
+<p><strong>EPS-Sterna</strong>: A new constellation of microsatellites carrying microwave sounders, currently in preparation.</p>
+</li>
+</ul>
+<p><strong>The Ground Segment</strong></p>
+<p>The EUMETSAT ground segment is the set of ground-based infrastructure required to operate the satellites and process and deliver their data. Its major components are:</p>
+<ul>
+<li>
+<p><strong>Mission Control Centre (MCC)</strong>: Located at EUMETSAT headquarters in Darmstadt, the MCC is responsible for the safe operation of all satellites. It comprises two main control rooms — one for geostationary missions and one for low-Earth-orbit missions. From the MCC, teams communicate with satellites and acquire data through a network of ground stations. Operations run continuously, 24 hours a day, 365 days a year.</p>
+</li>
+<li>
+<p><strong>Telemetry, Tracking and Control (TT&amp;C) Ground Stations</strong>: These stations provide the uplink and downlink communication interface between the satellites and the MCC. They send telecommands to the satellite and receive housekeeping telemetry, and perform ranging for orbit determination. Primary and backup stations are distributed across Europe.</p>
+</li>
+<li>
+<p><strong>Mission Data Acquisition (MDA) Stations / Ground Station Facilities (GSTF)</strong>: Separate from TT&amp;C, these stations receive the high-rate payload data (instrument science data) from the satellites. For MTG, data is received in the Ka band from both MTG-I and MTG-S at sites including Lario (Italy) and Leuk (Switzerland).</p>
+</li>
+<li>
+<p><strong>Mission Operations Facility (MOF)</strong>: The MOF provides all functions needed to plan and operate the missions. It includes the Mission Control Subsystem (MCS) for satellite monitoring and control, the Mission Planning Subsystem (MPS) for scheduling, and the Flight Dynamics Subsystem (FDS) for orbit determination and manoeuvre planning.</p>
+</li>
+<li>
+<p><strong>Instrument Data Processing Facilities (IDPF)</strong>: These facilities process the raw instrument data into calibrated, geolocated Level 1b products. For MTG, there are separate IDPFs for the imager and sounder instruments.</p>
+</li>
+<li>
+<p><strong>Level 2 Processing Facility (L2PF)</strong>: Transforms Level 1b data into geophysical products (Level 2) such as cloud properties, atmospheric motion vectors, and sea surface temperature.</p>
+</li>
+<li>
+<p><strong>Multi-Mission Elements (MME)</strong>: EUMETSAT has developed a set of common operational facilities shared across all programmes, covering data centre services, EUMETCast dissemination, system monitoring, and IT infrastructure. This multi-mission approach reduces duplication and cost.</p>
+</li>
+<li>
+<p><strong>EUMETCast</strong>: EUMETSAT's primary near-real-time data dissemination mechanism, based on Digital Video Broadcast-S2 (DVB-S2) technology. It uses commercial geostationary satellites to multicast data and products to users worldwide who have appropriate receiving equipment.</p>
+</li>
+<li>
+<p><strong>Satellite Application Facilities (SAFs)</strong>: A network of eight thematic processing centres distributed across EUMETSAT member states, each specialising in a particular application domain: Nowcasting (NWC SAF), Numerical Weather Prediction (NWP SAF), Ocean and Sea Ice (OSI SAF), Land Surface Analysis (LSA SAF), Atmospheric Composition Monitoring (AC SAF), Climate Monitoring (CM SAF), Radio Occultation Monitoring (ROM SAF), and the HSAF for Hydrological and Snow products.</p>
+</li>
+</ul>
+<h3 id="33-interfaces-and-interface-control">3.3 Interfaces and Interface Control</h3>
+<p>A critical SE skill is understanding and managing interfaces — the boundaries between systems or subsystems where data, power, physical connections, or functions are exchanged. At EUMETSAT, key interfaces include:</p>
+<ul>
+<li><strong>Space-to-Ground Interface</strong>: The radio frequency link between satellite and ground station (TT&amp;C on S-band, payload data on X-band or Ka-band). Defined in Interface Control Documents (ICDs).</li>
+<li><strong>Intra-Ground Segment Interfaces</strong>: Data flows between ground segment elements (e.g., from data acquisition to processing to dissemination). These are documented in Interface Requirements Documents (IRDs).</li>
+<li><strong>External Interfaces</strong>: Data exchanges with ESA (joint programmes), NOAA (IJPS cooperation), ECMWF (NWP products), and Copernicus services.</li>
+</ul>
+<p>Study the EUMETSAT publicly available interface documentation for MTG and EPS-SG. These documents give real-world examples of how interface requirements are specified and managed.</p>
+<h3 id="34-orbit-and-spacecraft-fundamentals">3.4 Orbit and Spacecraft Fundamentals</h3>
+<p>While not required to be an orbital mechanics expert, systems engineers must understand:</p>
+<ul>
+<li><strong>Geostationary orbit (GEO)</strong>: ~35,786 km altitude, satellite appears stationary relative to Earth, ideal for continuous regional imaging (Meteosat).</li>
+<li><strong>Sun-synchronous orbit (SSO)</strong>: ~800 km altitude, polar orbit crossing the equator at a consistent local solar time, ideal for global coverage (Metop, Sentinels).</li>
+<li><strong>Spacecraft subsystems</strong>: Power (solar panels, batteries), attitude control (star trackers, reaction wheels), propulsion (for orbit manoeuvres), on-board data handling (OBDH), communications (TT&amp;C transponder).</li>
+<li><strong>Launch and Early Operations Phase (LEOP)</strong>: The critical period immediately after launch when the satellite is deployed, activated, and tested before being handed to routine operations.</li>
+</ul>
+<p>Recommended reading: ESA's "Essentials of Spacecraft Attitude Determination and Control" and the EUMETSAT satellite pages on eumetsat.int.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
