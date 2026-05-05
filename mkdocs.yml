@@ -1,8 +1,11 @@
 # mkdocs.yml
 site_name: System Engineering
+site_description: Documentation for System Engineering concepts
 
 theme:
   name: material
+
+docs_dir: docs
 
 nav:
   - Home: README.md
@@ -17,7 +20,8 @@ nav:
       - Phase 7: Chapters/phase-7.md
       - Phase 8: Chapters/phase-8.md
       - Phase 9: Chapters/phase-9.md
+  - Appendix:
       - Appendex-A: Chapters/Appendix-A.md
-      - Appendex-B: Chapters/Appendix-A.md
-      - Appendex-C: Chapters/Appendix-A.md
-      - Certification: Chapters/certification.md
+      - Appendex-B: Chapters/Appendix-B.md
+      - Appendex-C: Chapters/Appendix-C.md
+  - Certification: Chapters/certification.md

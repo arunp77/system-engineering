@@ -1,4 +1,4 @@
-## 4. Phase 3 — Model-Based Systems Engineering
+## 4. Phase 4 — Model-Based Systems Engineering
 
 ### 4.1 Overview
 
@@ -14,7 +14,7 @@ SysML is the primary modelling language for MBSE. It is a subset and extension o
 - **Use Case Diagram**: Captures high-level system functions from the perspective of external actors (users, operators, other systems). Used in early mission analysis and operational concept definition.
 - **Activity Diagram**: Models dynamic behaviour — workflows, data flows, control flows. Useful for modelling operations procedures and data processing pipelines.
 - **Sequence Diagram**: Models time-ordered interactions between system elements. Used for modelling command-response sequences in satellite operations.
-- **State Machine Diagram**: Models the modes and states of a system or subsystem and the transitions between them. Essential for modelling satellite and ground system operational modes. 
+- **State Machine Diagram**: Models the modes and states of a system or subsystem and the transitions between them. Essential for modelling satellite and ground system operational modes.
 
 ### 4.3 MBSE Tools
 
@@ -25,6 +25,7 @@ Capella is an open-source MBSE tool developed by Thales and now maintained by th
 Capella structures the model in four layers: Operational Analysis (what the system must do in operational context), System Analysis (what the system does), Logical Architecture (how the system is functionally structured), and Physical Architecture (how the system is physically implemented). This top-down decomposition approach is directly applicable to EUMETSAT ground segment design.
 
 Practical steps:
+
 - Download Capella from eclipse.dev/capella (free)
 - Work through the official "Capella Day" training materials and the Arcadia/Capella tutorial model (Air Traffic Management example)
 - Model a simplified version of the EUMETSAT EPS-SG ground segment as a personal exercise

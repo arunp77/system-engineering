@@ -1,4 +1,4 @@
-## 7. Phase 6 — Operations Engineering and System Monitoring
+## 7. Phase 7 — Operations Engineering and System Monitoring
 
 ### 7.1 Overview
 
@@ -10,7 +10,7 @@ Operations engineering is the discipline of preparing, supporting, and optimisin
 - **In-Orbit Commissioning (IOC):** After LEOP, the satellite enters commissioning, during which all instruments are fully characterised, calibrated, and validated. IOC can last from several months to over a year for complex missions like MTG. During IOC, the operations procedures developed during operations preparation are executed for the first time in the real operational environment.
 - **Routine Operations:** Once a mission is declared operational, it enters routine operations — the continuous 24/7 cycle of satellite monitoring, data acquisition, product generation, and delivery. Systems engineers support routine operations by maintaining and improving monitoring systems, resolving anomalies, and managing ground system updates.
 
-### 7.3 Operations Preparation 
+### 7.3 Operations Preparation
 
 Operations preparation is the work done before launch to ensure that the mission can be operated safely and effectively once in orbit. It is a major SE activity covering:
 

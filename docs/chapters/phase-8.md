@@ -1,10 +1,11 @@
-## 8. Phase 7 — Operations Engineering and System Monitoring 
+## 8. Phase 8 — System Readiness and Deployment
 
 ### 8.1 Interface Management
 
 Interface management is the discipline of defining, controlling, and verifying the interfaces between systems and subsystems. It is one of the most important — and most frequently underestimated — aspects of systems engineering on large programmes.
 
 Key documents in interface management:
+
 - **Interface Requirements Document (IRD)**: Specifies requirements on interfaces between systems.
 - **Interface Control Document (ICD)**: Defines the interface in detail — formats, protocols, timing, data content, physical connectors.
 - **Interface Control Working Group (ICWG)**: A formal forum in which the teams responsible for each side of an interface meet to agree, baseline, and manage ICDs.
@@ -13,7 +14,7 @@ At EUMETSAT, major interface management challenges arise from multi-partner prog
 
 ### 8.2 Configuration Management
 
-Configuration management (CM) is the discipline of controlling and tracking changes to system documentation, software, and hardware throughout the lifecycle. In SE contexts, CM covers: 
+Configuration management (CM) is the discipline of controlling and tracking changes to system documentation, software, and hardware throughout the lifecycle. In SE contexts, CM covers:
 
 - Identifying and baselining configuration items (documents, software versions, hardware items)
 - Change control: all changes to baselined items must go through a formal Change Control Board (CCB) process

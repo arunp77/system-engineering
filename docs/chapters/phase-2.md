@@ -1,4 +1,4 @@
-## 2. Phase 1 — Foundations of Systems Engineering
+## 2. Phase 2 — Foundations of Systems Engineering
 
 ### 2.1 Overview
 
@@ -22,7 +22,7 @@ Understanding the V-model is essential for EUMETSAT work because all ground segm
 
 The system lifecycle encompasses all phases from initial concept to decommissioning. For EUMETSAT satellite programmes, this typically includes:
 
-- Phase 0: Mission Analysis and Needs Identification 
+- Phase 0: Mission Analysis and Needs Identification
 - Phase A: Feasibility
 - Phase B: Preliminary Design
 - Phase C: Detailed Design
@@ -34,10 +34,10 @@ These phases follow the ECSS (European Cooperation for Space Standardization) st
 
 **System Decomposition and Hierarchy**
 
-Systems are decomposed into a hierarchy: 
+Systems are decomposed into a hierarchy:
 
 ```
-System    →    Segment    →    Subsystem    →    Equipment    →    Component. 
+System    →    Segment    →    Subsystem    →    Equipment    →    Component.
 ```
 
 At EUMETSAT, the top-level decomposition is typically Space Segment and Ground Segment, with further decomposition into mission control, data acquisition, data processing, dissemination, and supporting infrastructure. Understanding how requirements flow down this hierarchy (requirement allocation) and how verification evidence flows back up (traceability) is a core SE skill.
@@ -88,6 +88,7 @@ Every requirement must be traceable — both to its parent requirement (upward t
 IBM DOORS (Dynamic Object-Oriented Requirements System) is the industry-standard tool for requirements management in the space industry and is explicitly referenced in EUMETSAT job descriptions. Learning DOORS is non-negotiable for a serious SE career at EUMETSAT.
 
 Practical steps:
+
 - Download the IBM DOORS trial or use DOORS Next Generation (DNG), the modern web-based version
 - Practice creating modules, writing requirements, creating attributes, establishing links between requirements, and generating traceability reports
 - Study the concept of baselines — freezing a set of requirements at a programme milestone

@@ -17,18 +17,18 @@ EUMETSAT — the European Organisation for the Exploitation of Meteorological Sa
 
 ## Table of Contents
 
-1. [Phase 0 — Introduction to Systems Engineering](chapters/phase-0.md)
-2. [Phase 1 — Foundations of Systems Engineering](chapters/phase-1.md)
-3. [Phase 2 — Space and Ground Segment Architecture](chapters/phase-2.md)
-4. [Phase 3 — Model-Based Systems Engineering (MBSE)](chapters/phase-3.md)
-5. [Phase 4 — Verification and Validation ](chapters/phase-4.md)
-6. [Phase 5 — Data Processing and Product Lifecycle](chapters/phase-5.md)
-7. [Phase 6 — Operations Engineering and System Monitoring ](chapters/phase-6.md)
-8. [Phase 7 — Cross-Cutting Skills](chapters/phase-7.md)
-9. [Phase 9 — Software Development Methodologies in System Engineering](chapters/Phase-9.md)
-10. [Phase 8 — Practical Recommendations and Next Steps](chapters/certification.md)
-10. [Appendix B — Key Tools](chapters/Appendix-B.md)
-11. [Appendix C — Key Tools](chapters/Appendix-C.md)
-12. [Certifications and Formal Credentials](chapters/Appendix-A.md)
+1. [Phase 0 — Introduction to Systems Engineering](docs/chapters/phase-0.md)
+2. [Phase 1 — Foundations of Systems Engineering](docs/chapters/phase-1.md)
+3. [Phase 2 — Space and Ground Segment Architecture](docs/chapters/phase-2.md)
+4. [Phase 3 — Model-Based Systems Engineering (MBSE)](docs/chapters/phase-3.md)
+5. [Phase 4 — Verification and Validation ](docs/chapters/phase-4.md)
+6. [Phase 5 — Data Processing and Product Lifecycle](docs/chapters/phase-5.md)
+7. [Phase 6 — Operations Engineering and System Monitoring ](docs/chapters/phase-6.md)
+8. [Phase 7 — Operations Engineering and System Monitoring ](docs/chapters/phase-7.md)
+9. [Phase 9 — Software Development Methodologies in System Engineering](docs/chapters/Phase-9.md)
+10. [Phase 8 — Practical Recommendations and Next Steps](docs/chapters/certification.md)
+11. [Appendix A — Key Certifications and Formal Credentials](docs/chapters/Appendix-A.md)
+12. [Appendix B — Key Tools](docs/chapters/Appendix-B.md)
+13. [Appendix C — Important Organizations](docs/chapters/Appendix-C.md)
 
 ---

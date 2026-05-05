@@ -1,4 +1,4 @@
-## 1. Introduction to Systems Engineering
+## 1. Phase 1 — Introduction to Systems Engineering
 
 ### 1.1 What Is Systems Engineering?
 
@@ -28,4 +28,4 @@ EUMETSAT currently operates missions including Meteosat Second Generation (MSG),
 
 ### 1.3 How This Plan Is Structured
 
-The learning plan is divided into seven phases, roughly ordered by dependency — foundational concepts first, then domain-specific architecture, then tools and processes, then specialised topics. Phases overlap intentionally, as the best learning happens when concepts from one phase are reinforced by practice in the next. The plan assumes approximately 10–15 hours of study per week alongside professional work. 
+The learning plan is divided into seven phases, roughly ordered by dependency — foundational concepts first, then domain-specific architecture, then tools and processes, then specialised topics. Phases overlap intentionally, as the best learning happens when concepts from one phase are reinforced by practice in the next. The plan assumes approximately 10–15 hours of study per week alongside professional work.
