@@ -1,10 +1,10 @@
-## 5. Phase 5 — Verification and Validation
+## Verification and Validation
 
-### 5.1 Overview
+### Overview
 
 Verification and Validation (V&V) is the systematic process of ensuring that a system meets its specified requirements (verification) and that it meets the actual needs of users and stakeholders (validation). It is one of the most technically demanding aspects of systems engineering and occupies a large portion of any space programme's development effort.
 
-### 5.2 Verification vs. Validation
+### Verification vs. Validation
 
 The distinction is subtle but important:
 
@@ -13,7 +13,7 @@ The distinction is subtle but important:
 
 At EUMETSAT, an example of the distinction: verification of the Level 1b processor confirms that it applies the specified radiometric calibration algorithm correctly (verification against the ICD). Validation confirms that the resulting radiance products are of sufficient accuracy for numerical weather prediction users (validation against user needs).
 
-### 5.3 Verification Methods
+### Verification Methods
 
 The four recognised verification methods under ECSS-E-ST-10-02 are:
 
@@ -24,17 +24,14 @@ The four recognised verification methods under ECSS-E-ST-10-02 are:
 
 Each requirement in the requirements database should be assigned one of these methods, documented in the Verification Control Document (VCD).
 
-### 5.4 The V&V Process
+### The V&V Process
 
-**Verification Planning**: At the start of a programme, the Verification Plan (VP) is written, defining the overall strategy, the verification levels (component, subsystem, system), the test environments, and the schedule.
+- **Verification Planning**: At the start of a programme, the Verification Plan (VP) is written, defining the overall strategy, the verification levels (component, subsystem, system), the test environments, and the schedule.
+- **Test Specification**: For each verification activity, a Test Specification document defines the exact test conditions, input data, procedures, pass/fail criteria, and expected results.
+- **Test Execution and Reporting**: Tests are executed in controlled environments. Results are documented in Test Reports. Non-conformances (failures to meet requirements) are documented in Non-Conformance Reports (NCRs) or Problem Reports (PRs) and must be formally resolved before programme milestones.
+- **Verification Closure**: At the end of the programme, the Verification Status Matrix (VSM) documents the status of every requirement — verified, partially verified, or open. Open items must be formally accepted by the customer (EUMETSAT) with agreed corrective action plans.
 
-**Test Specification**: For each verification activity, a Test Specification document defines the exact test conditions, input data, procedures, pass/fail criteria, and expected results.
-
-**Test Execution and Reporting**: Tests are executed in controlled environments. Results are documented in Test Reports. Non-conformances (failures to meet requirements) are documented in Non-Conformance Reports (NCRs) or Problem Reports (PRs) and must be formally resolved before programme milestones.
-
-**Verification Closure**: At the end of the programme, the Verification Status Matrix (VSM) documents the status of every requirement — verified, partially verified, or open. Open items must be formally accepted by the customer (EUMETSAT) with agreed corrective action plans.
-
-### 5.5 Review Gates
+### Review Gates
 
 EUMETSAT programmes follow the ECSS review gate structure. Systems engineers prepare for and participate in all reviews:
 
@@ -44,7 +41,7 @@ EUMETSAT programmes follow the ECSS review gate structure. Systems engineers pre
 - **Qualification Review (QR)**: Confirms that the qualification testing campaign has demonstrated compliance with all requirements.
 - **Acceptance Review (AR)**: Final acceptance by the customer (EUMETSAT) of the delivered system. The Verification Status Matrix must show closure of all requirements.
 
-### 5.6 Automated V&V and Python
+### Automated V&V and Python
 
 Your Python skills are directly applicable to V&V automation:
 

@@ -1,6 +1,6 @@
-## 8. Phase 8 — System Readiness and Deployment
+## System Readiness and Deployment
 
-### 8.1 Interface Management
+### Interface Management
 
 Interface management is the discipline of defining, controlling, and verifying the interfaces between systems and subsystems. It is one of the most important — and most frequently underestimated — aspects of systems engineering on large programmes.
 
@@ -12,7 +12,7 @@ Key documents in interface management:
 
 At EUMETSAT, major interface management challenges arise from multi-partner programmes (EUMETSAT + ESA + industrial contractors) and from the fact that ground segments must interface with multiple satellite systems with different ICDs.
 
-### 8.2 Configuration Management
+### Configuration Management
 
 Configuration management (CM) is the discipline of controlling and tracking changes to system documentation, software, and hardware throughout the lifecycle. In SE contexts, CM covers:
 
@@ -23,15 +23,15 @@ Configuration management (CM) is the discipline of controlling and tracking chan
 
 Tools commonly used: IBM Rational DOORS for requirements baselines, JIRA for change management, Git for software configuration management, and various document management systems.
 
-### 8.3 Risk Management
+### Risk Management
 
 SE risk management involves systematically identifying, assessing, and mitigating technical, programmatic, and operational risks. For EUMETSAT programmes, risk registers are maintained throughout the programme lifecycle and reviewed at every milestone. A risk is characterised by its likelihood and consequence. Risk responses include: avoidance (eliminate the cause), mitigation (reduce likelihood or consequence), transfer (accept the risk but with contingency budget/schedule), and acceptance.
 
-### 8.4 Security Engineering
+### Security Engineering
 
 Information and cyber security is an increasingly important aspect of EUMETSAT ground segment engineering as systems move to cloud-based architectures and networked services. EUMETSAT has a dedicated security engineering function covering network security, access control, encryption of satellite command links, and protection of operational systems against cyber threats. The relevant standard is ISO/IEC 27001 (Information Security Management Systems).
 
-### 8.5 Cloud and Big Data Technologies
+### Cloud and Big Data Technologies
 
 EUMETSAT is actively evolving toward cloud-based data services and cloud-native ground segment elements. Systems engineers increasingly need to understand cloud architectures even if they are not cloud architects themselves. Relevant knowledge areas include:
 
@@ -43,6 +43,6 @@ EUMETSAT is actively evolving toward cloud-based data services and cloud-native 
 
 For a Python developer, moving from local processing to cloud-native EO processing with tools like Xarray, Dask, and cloud STAC catalogues is a natural extension.
 
-### 8.6 Systems Engineering for AI and Machine Learning Integration
+### Systems Engineering for AI and Machine Learning Integration
 
 An emerging area at EUMETSAT is the systematic integration of machine learning methods into operational data processing. From a SE perspective, this introduces new challenges: ML models must be specified (what they must do, not how), verified (demonstrating performance against test datasets), validated (demonstrating performance in operational conditions), and managed over time (handling model drift, retraining cycles). The discipline of MLOps overlaps significantly with traditional SE configuration management and V&V processes.

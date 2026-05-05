@@ -1,10 +1,10 @@
-## 2. Phase 2 — Foundations of Systems Engineering
+## Foundations of Systems Engineering
 
-### 2.1 Overview
+### Overview
 
 The first phase establishes the theoretical and methodological foundation for all subsequent learning. It covers the core SE process, lifecycle models, standards, and the single most critical practical skill in EUMETSAT SE roles: requirements engineering.
 
-### 2.2 Core Systems Engineering Concepts
+### Core Systems Engineering Concepts
 
 **The V-Model**
 
@@ -44,7 +44,7 @@ At EUMETSAT, the top-level decomposition is typically Space Segment and Ground S
 
 ![images](images/img3.png)
 
-### 2.3 Key Standards to Study
+### Key Standards to Study
 
 **ECSS Standards**
 
@@ -66,7 +66,7 @@ The [NASA SE Handbook](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_syst
 
 The INCOSE handbook (latest edition) provides the international consensus view of SE best practices. It covers the full SE process, introduces key concepts like functional analysis, trade studies, and interface management, and maps to the ISO/IEC 15288 standard (System Lifecycle Processes), which ECSS is aligned with.
 
-### 2.4 Requirements Engineering
+### Requirements Engineering
 
 Requirements engineering is the single skill most consistently demanded across all EUMETSAT systems engineering job postings. It encompasses eliciting, documenting, managing, and verifying requirements throughout the system lifecycle.
 
@@ -93,7 +93,7 @@ Practical steps:
 - Practice creating modules, writing requirements, creating attributes, establishing links between requirements, and generating traceability reports
 - Study the concept of baselines — freezing a set of requirements at a programme milestone
 
-### 2.5 Study Resources for Phase 1
+### Study Resources for Phase 1
 
 - ECSS Standards ([ecss.nl](https://ecss.nl/) free download)
 - [NASA SE Handbook](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)
@@ -101,7 +101,7 @@ Practical steps:
 - IBM DOORS tutorials on [YouTube](https://www.youtube.com/watch?v=bIk33ca0oWQ) and [IBM documentation portal](https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.2?topic=tutorials)
 - Kossiakoff & Sweet, "Systems Engineering: Principles and Practice" (textbook)
 
-### 2.6 Important links
+### Important links
 
 - [Software development: Introduction to IV&V](https://arunp77.github.io/iv-and-v.html)
 - [CI/CD: Streamlining Software Development](https://arunp77.github.io/ci-cd-Jenkins.html#waterfall)

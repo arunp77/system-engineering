@@ -1,14 +1,14 @@
-## 3. Phase 3 — Space and Ground Segment Architecture
+## Space and Ground Segment Architecture
 
-### 3.1 Overview
+### Overview
 
 Phase 2 builds domain-specific knowledge of satellite systems architecture, with a focus on EUMETSAT's operational systems. Understanding what EUMETSAT operates — in full architectural detail — is essential for any SE role within the organisation.
 
-### 3.2 The EUMETSAT End-to-End System
+### The EUMETSAT End-to-End System
 
 The EUMETSAT system can be understood as three interconnected domains: the space segment, the ground segment, and the user segment. Systems engineers must understand all three and the interfaces between them.
 
-**The Space Segment**
+#### 1. The Space Segment
 
 EUMETSAT's satellite fleet currently consists of:
 
@@ -24,7 +24,7 @@ EUMETSAT's satellite fleet currently consists of:
 
 - **EPS-Sterna**: A new constellation of microsatellites carrying microwave sounders, currently in preparation.
 
-**The Ground Segment**
+#### 2. The Ground Segment
 
 The EUMETSAT ground segment is the set of ground-based infrastructure required to operate the satellites and process and deliver their data. Its major components are:
 
@@ -46,7 +46,7 @@ The EUMETSAT ground segment is the set of ground-based infrastructure required t
 
 - **Satellite Application Facilities (SAFs)**: A network of eight thematic processing centres distributed across EUMETSAT member states, each specialising in a particular application domain: Nowcasting (NWC SAF), Numerical Weather Prediction (NWP SAF), Ocean and Sea Ice (OSI SAF), Land Surface Analysis (LSA SAF), Atmospheric Composition Monitoring (AC SAF), Climate Monitoring (CM SAF), Radio Occultation Monitoring (ROM SAF), and the HSAF for Hydrological and Snow products.
 
-### 3.3 Interfaces and Interface Control
+### Interfaces and Interface Control
 
 A critical SE skill is understanding and managing interfaces — the boundaries between systems or subsystems where data, power, physical connections, or functions are exchanged. At EUMETSAT, key interfaces include:
 
@@ -56,7 +56,7 @@ A critical SE skill is understanding and managing interfaces — the boundaries 
 
 Study the EUMETSAT publicly available interface documentation for MTG and EPS-SG. These documents give real-world examples of how interface requirements are specified and managed.
 
-### 3.4 Orbit and Spacecraft Fundamentals
+### Orbit and Spacecraft Fundamentals
 
 While not required to be an orbital mechanics expert, systems engineers must understand:
 

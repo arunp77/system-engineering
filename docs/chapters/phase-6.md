@@ -1,10 +1,10 @@
-## 6. Phase 6 — Data Processing and Product Lifecycle
+## Data Processing and Product Lifecycle
 
-### 6.1 Overview
+### Overview
 
 From a systems engineering perspective, the data processing chain is a critical subsystem that must be fully specified, designed, verified, and maintained. Understanding it deeply — both technically and from an SE lifecycle perspective — is a significant differentiator.
 
-### 6.2 The EUMETSAT Data Processing Hierarchy
+### The EUMETSAT Data Processing Hierarchy
 
 EUMETSAT's data products are organised in processing levels that mirror international standards:
 
@@ -18,7 +18,7 @@ EUMETSAT's data products are organised in processing levels that mirror internat
 
 - **Level 3**: Gridded, composited, or averaged products derived from Level 2 data. These are typically created over regular time periods (daily, monthly) and on regular spatial grids. Important for climate monitoring applications.
 
-### 6.3 Calibration and Validation (Cal/Val)
+### Calibration and Validation (Cal/Val)
 
 Calibration and validation is the process of ensuring that instrument measurements and derived products are accurate and consistent over time. It bridges the gap between raw measurements and scientifically and operationally useful products.
 
@@ -28,7 +28,7 @@ Calibration and validation is the process of ensuring that instrument measuremen
 
 From a systems engineering perspective, the Cal/Val process must be planned, specified, and operationalised as part of the ground segment design — it is not an afterthought. Requirements for validation accuracy targets must be defined and verified.
 
-### 6.4 Data Formats and Access Standards
+### Data Formats and Access Standards
 
 Proficiency with the data formats used in EUMETSAT products is essential:
 
@@ -38,7 +38,7 @@ Proficiency with the data formats used in EUMETSAT products is essential:
 - **HDF5 native formats**: Used for some Level 0 and Level 1 products (e.g., Sentinel-3 products use a specific HDF5 profile).
 - **EUMETSAT Data Store API**: A RESTful API providing programmatic access to EUMETSAT's data archive. Python clients exist (eumdac Python library) and should be mastered for data retrieval automation.
 
-### 6.5 Ground Processing System Engineering
+### Ground Processing System Engineering
 
 From a SE perspective, the data processing system is a complex software-intensive system that must be fully engineered. Key SE considerations include:
 

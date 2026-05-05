@@ -1,10 +1,10 @@
-## 4. Phase 4 — Model-Based Systems Engineering
+## Model-Based Systems Engineering
 
-### 4.1 Overview
+### Overview
 
 Model-Based Systems Engineering (MBSE) is the modern approach to SE in which formal models replace or supplement traditional document-based methods. Instead of managing requirements and designs in Word documents and spreadsheets, MBSE uses structured models that capture the system's structure, behaviour, and requirements in a single coherent representation. EUMETSAT job postings consistently require practical experience with MBSE tools and SysML.
 
-### 4.2 SysML — Systems Modeling Language
+### SysML — Systems Modeling Language
 
 SysML is the primary modelling language for MBSE. It is a subset and extension of UML (Unified Modeling Language), adapted for systems engineering. SysML provides nine diagram types, of which the following are most important for ground segment systems engineering:
 
@@ -16,9 +16,9 @@ SysML is the primary modelling language for MBSE. It is a subset and extension o
 - **Sequence Diagram**: Models time-ordered interactions between system elements. Used for modelling command-response sequences in satellite operations.
 - **State Machine Diagram**: Models the modes and states of a system or subsystem and the transitions between them. Essential for modelling satellite and ground system operational modes.
 
-### 4.3 MBSE Tools
+### MBSE Tools
 
-**Capella / Arcadia (Priority Tool)**
+#### 1. Capella / Arcadia (Priority Tool)
 
 Capella is an open-source MBSE tool developed by Thales and now maintained by the Eclipse Capella open-source project. It is based on the Arcadia methodology, a structured approach to system and software architecture. Capella is widely used in European defence and space industries and is the recommended starting tool because it is free, well-documented, and methodologically guided.
 
@@ -30,15 +30,15 @@ Practical steps:
 - Work through the official "Capella Day" training materials and the Arcadia/Capella tutorial model (Air Traffic Management example)
 - Model a simplified version of the EUMETSAT EPS-SG ground segment as a personal exercise
 
-**MagicDraw / Cameo Systems Modeler**
+#### 2. MagicDraw / Cameo Systems Modeler
 
 MagicDraw (now rebranded as Cameo Systems Modeler by No Magic/Dassault Systèmes) is the leading commercial MBSE tool and is widely used in the space industry. A student/trial license is available. It is more flexible than Capella but less methodologically guided. Knowledge of both tools is valuable.
 
-**Papyrus**
+#### 3. Papyrus
 
 Another open-source option within the Eclipse ecosystem, supporting UML and SysML. Less widely used in industrial contexts than Capella or MagicDraw but useful for learning SysML notation.
 
-### 4.4 MBSE and Python Integration
+### MBSE and Python Integration
 
 Given your Python background, a differentiating skill is the ability to interact with MBSE models programmatically. Several approaches exist:
 
