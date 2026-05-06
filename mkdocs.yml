@@ -37,17 +37,17 @@ docs_dir: docs
 nav:
   - Home: index.md
 
-  - Phases:
-      - Phase 0: chapters/phase-0.md
-      - Phase 1: chapters/phase-1.md
-      - Phase 2: chapters/phase-2.md
-      - Phase 3: chapters/phase-3.md
-      - Phase 4: chapters/phase-4.md
-      - Phase 5: chapters/phase-5.md
-      - Phase 6: chapters/phase-6.md
-      - Phase 7: chapters/phase-7.md
-      - Phase 8: chapters/phase-8.md
-      - Phase 9: chapters/phase-9.md
+  - Chapters:
+      - Chapter 0: chapters/phase-0.md
+      - Chapter 1: chapters/phase-1.md
+      - Chapter 2: chapters/phase-2.md
+      - Chapter 3: chapters/phase-3.md
+      - Chapter 4: chapters/phase-4.md
+      - Chapter 5: chapters/phase-5.md
+      - Chapter 6: chapters/phase-6.md
+      - Chapter 7: chapters/phase-7.md
+      - Chapter 8: chapters/phase-8.md
+      - Chapter 9: chapters/phase-9.md
 
   - Appendix:
       - Appendix A: chapters/Appendix-A.md
