@@ -66,3 +66,21 @@ While not required to be an orbital mechanics expert, systems engineers must und
 - **Launch and Early Operations Phase (LEOP)**: The critical period immediately after launch when the satellite is deployed, activated, and tested before being handed to routine operations.
 
 Recommended reading: ESA's "Essentials of Spacecraft Attitude Determination and Control" and the EUMETSAT satellite pages on eumetsat.int.
+
+### References
+
+- [https://www.eumetsat.int/](https://www.eumetsat.int/)
+- [https://www.esa.int/](https://www.esa.int/)
+- [https://www.ecmwf.int/](https://www.ecmwf.int/)
+- [https://www.noaa.gov/](https://www.noaa.gov/)
+- [Electromagnetic Spectrum and Its Relevance](https://arunp77.github.io/electromagnetic-waves.html)
+- [VARIOUS European organizations RELATED TO SPACE AND SATELLITE OPERATIONS](https://arunp77.github.io/space-missions.html)
+- [Exploring the Earth: The Power of Earth Observation](https://arunp77.github.io/earth-observation.html)
+- [Europe’s eyes on Earth: the EU’s Copernicus Programme](https://arunp77.github.io/Sentinal-project.html)
+- [Data processing ground segment (DPGS)](https://arunp77.github.io/Ground-segment-systems.html)
+- [Remote Sensing Unveiled: Fundamentals, Technologies, Applications, and Future Trends](https://arunp77.github.io/Remote-sensing.html)
+- [Satellite ground data processing levels](https://arunp77.github.io/Satellite-data.html)
+- [Top-of-atmosphere reflectance (or TOA reflectance)](https://arunp77.github.io/toa-reflectance.html)
+- [Resolution and calibration](https://arunp77.github.io/Satellites-sensors.html)
+- [Image processing and it's role in remote sensing](https://arunp77.github.io/image-processing.html)
+- [Oceanography : A remote sensing perspective](https://arunp77.github.io/OLCI.html)
