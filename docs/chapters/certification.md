@@ -12,6 +12,4 @@ ESA and various training providers offer courses on ECSS standards. The ESA Acad
 
 Obeo and other Capella training providers offer formal Capella training courses. The Eclipse Capella project provides free online learning materials. Formal Capella training certificates are recognised in the European aerospace industry.
 
-### Cloud Certifications
-
-AWS Certified Cloud Practitioner or AWS Certified Solutions Architect (Associate) provides structured knowledge of cloud architectures. Given that EUMETSAT uses both AWS and Azure services, cloud certification demonstrates relevant technical knowledge.
+---

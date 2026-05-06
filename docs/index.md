@@ -17,20 +17,3 @@ This repo contains a structured, phase-by-phase learning roadmap for acquiring S
 ## 🧭 Navigation
 
 Use top menu to explore the content.
-
-1. [Phase 0 — Software Development Methodologies in System Engineering](chapters/phase-0.md)
-2. [Phase 1 — Introduction to Systems Engineering](chapters/phase-1.md)
-3. [Phase 2 — Foundations of Systems Engineering](chapters/phase-2.md)
-4. [Phase 3 — Space and Ground Segment Architecture](chapters/phase-3.md)
-5. [Phase 4 — Model-Based Systems Engineering (MBSE)](chapters/phase-4.md)
-6. [Phase 5 — Verification and Validation ](chapters/phase-5.md)
-7. [Phase 6 — Data Processing and Product Lifecycle](chapters/phase-6.md)
-8. [Phase 7 — Operations Engineering and System Monitoring ](chapters/phase-7.md)
-9. [Phase 8 — System Readiness and Deployment](chapters/phase-8.md)
-10. [Phase 9 — Practical Recommendations and Next Steps](chapters/Phase-9.md)
-11. [Appendix A — Key Standards and Documents](chapters/Appendix-A.md)
-12. [Appendix B — Key Tools](chapters/Appendix-B.md)
-13. [Appendix C — Recommended Books](chapters/Appendix-C.md)
-14. [Certifications and Formal Credentials](chapters/certification.md)
-
----

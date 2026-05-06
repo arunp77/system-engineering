@@ -21,41 +21,6 @@ Hi, I’m **Arun Kumar Pandey** — a Data Engineer with a background in Astroph
 
 ---
 
-## 🛠️ Skills & Tools
-
-**Programming & Data**
-
-- Python, SQL, Bash
-- Pandas, NumPy, Scikit-learn
-
-**Data Engineering**
-
-- Airflow (basic), Kafka
-- Elasticsearch, Snowflake
-- ETL / ELT pipelines
-
-**Cloud & Systems**
-
-- AWS
-- Docker
-- Linux
-
-**Visualization**
-
-- Plotly, Dash
-- Kibana
-
----
-
-## 📂 Projects
-
-- 📊 Data visualization dashboards using Flask + Plotly
-- 🛰️ Satellite data processing pipelines
-- 🔍 Log analysis and anomaly detection systems
-- 📈 Machine learning models for structured data
-
----
-
 ## 🌐 Links
 
 - 💻 GitHub: [arunp77](https://github.com/arunp77)
