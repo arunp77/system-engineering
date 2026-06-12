@@ -1,4 +1,4 @@
-# Systems Engineering Learning Plan: A Comprehensive Guide in the Context of EUMETSAT
+# Systems Engineering Learning Plan: A Comprehensive Guide in the Context of EUMETSAT 
 
 - **Prepared for:** Personal Professional Development
 - **Domain:** Space Systems Engineering — Meteorological Satellites
