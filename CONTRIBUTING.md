@@ -21,7 +21,7 @@ You can contribute in the following ways:
 
 git checkout -b feature-name
 
-4. Make your changes
+4. Make your changes 
 
 ---
 
