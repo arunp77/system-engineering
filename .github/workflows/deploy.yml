@@ -1,0 +1,31 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual trigger from the Actions tab
+
+permissions:
+  contents: write  # Required to push to gh-pages branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for git-committers plugin if used
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install MkDocs and dependencies
+        run: |
+          pip install mkdocs-material
+
+      - name: Build and deploy to GitHub Pages
+        run: mkdocs gh-deploy --force

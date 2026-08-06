@@ -1,6 +1,6 @@
 site_name: System Engineering
 site_description: Documentation for System Engineering concepts
-site_url: https://arunp77.github.io/
+site_url: https://arunp77.github.io/system-engineering/
 
 theme:
   name: material
