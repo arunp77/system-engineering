@@ -1,3 +1,24 @@
 
 site/
 deployment_guidline.md
+
+
+# Credentials must never be committed (also caught by repo-root *.yaml rule,
+# but explicit here so it's obvious what this directory considers sensitive).
+configs/credentials.yaml
+
+# Downloaded satellite data: large, not ours to redistribute, easy to re-fetch.
+raw_data/
+processed/
+
+# Python
+__pycache__/
+*.pyc
+*.log
+
+*.aux
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+
